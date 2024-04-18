@@ -168,7 +168,7 @@ header ul li a:hover {
 section.img {
   width: 100%;
   height: 100%;
-  background-image: url(imagens/fallen2.png);
+  background-image: url(imagens/fallen3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,4 +235,105 @@ section.img {
 .img_cloud {
   margin-top: 15rem;
   opacity: 0.5;
+}
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+.footer_link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: var(--color-neutral-0);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3em 5em;
+}
+
+#footer_content h1 {
+  margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+#footer_social_media .footer_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+#footer_social_media .footer_link i {
+  font-size: 1.25rem;
+}
+#footer_social_media .footer_link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#twitter {
+  background: #00acee;
+}
+
+#itch-io {
+  background: #f72348;
+}
+
+.footer_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer_list .footer_link {
+  color: var(--color-neutral-30);
+}
+
+.footer_list .footer_link:hover {
+  color: #7f37c9;
+  transition: 0.4s;
+}
+
+#footer_copyrigth {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 775px) {
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 775px) {
+  #textoimg {
+    position: static;
+    text-align: left;
+  }
 }

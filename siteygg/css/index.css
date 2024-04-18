@@ -265,12 +265,12 @@ header ul li a:hover {
   padding-left: 5em;
 }
 
-#textoimg h1 {
+#textoimg h2 {
   color: #c08cf5;
   font-size: 6em;
 }
 
-#textoimg h1 span {
+#textoimg h2 span {
   color: #933ee9;
 }
 
@@ -340,7 +340,7 @@ header ul li a:hover {
 }
 
 #Fallen {
-  background-image: url(/sitefallen/imagens/fallen2.png);
+  background-image: url(/siteygg/imagens/fallen+escura.png);
 }
 
 footer {
@@ -439,7 +439,7 @@ footer {
 
 @media (max-width: 775px) {
   #textoimg {
-    position: static;
+    /* position: static; */
     text-align: left;
   }
 }
